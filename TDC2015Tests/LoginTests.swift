@@ -1,6 +1,6 @@
 //
-//  TDC2015Tests.swift
-//  TDC2015Tests
+//  LoginTests.swift
+//  TDC2015
 //
 //  Created by Rodrigo S Andrade on 5/14/15.
 //  Copyright (c) 2015 DevMac. All rights reserved.
@@ -9,10 +9,10 @@
 import UIKit
 import XCTest
 
-class TDC2015Tests: XCTestCase {
+class LoginTests: XCTestCase {
     
     let login = Login()
-    
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -25,14 +25,14 @@ class TDC2015Tests: XCTestCase {
     
     func testLoginSucceeded() {
         
-        XCTAssertTrue(login.checkLogin("rodrigo", password: "123"), "Check login succeeded.")
+        XCTAssertTrue(login.checkLogin("rodrigo", password: "123"), "Test login succeeded.")
         
     }
-    
+
     func testLoginFailed() {
         
-        XCTAssertFalse(login.checkLogin("rodrigo", password: "136"), "Check login failed.")
-        
+        XCTAssertFalse(login.checkLogin("rodrigo", password: "111"), "Test login fail.")
     }
     
+
 }

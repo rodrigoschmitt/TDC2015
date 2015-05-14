@@ -35,8 +35,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let tdcTitle = "TDC Floripa 2015"
     }
 
     override func didReceiveMemoryWarning() {

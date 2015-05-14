@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A035AA81B050FFD000AAE5A /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A035AA71B050FFD000AAE5A /* LoginTests.swift */; };
 		4A8A94451B04DCF80092B48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94441B04DCF80092B48A /* AppDelegate.swift */; };
 		4A8A94471B04DCF80092B48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94461B04DCF80092B48A /* ViewController.swift */; };
 		4A8A944A1B04DCF80092B48A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A94481B04DCF80092B48A /* Main.storyboard */; };
 		4A8A944C1B04DCF80092B48A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A944B1B04DCF80092B48A /* Images.xcassets */; };
 		4A8A944F1B04DCF80092B48A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A944D1B04DCF80092B48A /* LaunchScreen.xib */; };
-		4A8A945B1B04DCF80092B48A /* TDC2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A945A1B04DCF80092B48A /* TDC2015Tests.swift */; };
 		4A8A946A1B04E1300092B48A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94691B04E1300092B48A /* Login.swift */; };
 		4A8A946B1B04E5310092B48A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94691B04E1300092B48A /* Login.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A035AA71B050FFD000AAE5A /* LoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		4A8A943F1B04DCF80092B48A /* TDC2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDC2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A94431B04DCF80092B48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8A94441B04DCF80092B48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		4A8A944E1B04DCF80092B48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A8A94541B04DCF80092B48A /* TDC2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDC2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A94591B04DCF80092B48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A8A945A1B04DCF80092B48A /* TDC2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDC2015Tests.swift; sourceTree = "<group>"; };
 		4A8A94691B04E1300092B48A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = Model/Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 		4A8A94571B04DCF80092B48A /* TDC2015Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4A8A945A1B04DCF80092B48A /* TDC2015Tests.swift */,
+				4A035AA71B050FFD000AAE5A /* LoginTests.swift */,
 				4A8A94581B04DCF80092B48A /* Supporting Files */,
 			);
 			path = TDC2015Tests;
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8A945B1B04DCF80092B48A /* TDC2015Tests.swift in Sources */,
+				4A035AA81B050FFD000AAE5A /* LoginTests.swift in Sources */,
 				4A8A946B1B04E5310092B48A /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +439,7 @@
 				4A8A94601B04DCF80092B48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A8A94611B04DCF80092B48A /* Build configuration list for PBXNativeTarget "TDC2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +448,7 @@
 				4A8A94631B04DCF80092B48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
