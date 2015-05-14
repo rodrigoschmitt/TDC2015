@@ -18,10 +18,10 @@ class ViewController: UIViewController {
         let login = Login()
         
         if (login.checkLogin(txtUsername.text, password: txtPassword.text)) {
-            self.showAlert("Login ok!")
+            self.showAlert("Login succeeded!")
         }
         else {
-            self.showAlert("Login fail!")
+            self.showAlert("Login failed!")
         }
         
     }
@@ -35,7 +35,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tdcTitle = "TDC Floripa 2015"
     }
 
     override func didReceiveMemoryWarning() {
