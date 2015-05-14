@@ -13,6 +13,8 @@
 		4A8A944C1B04DCF80092B48A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A944B1B04DCF80092B48A /* Images.xcassets */; };
 		4A8A944F1B04DCF80092B48A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A944D1B04DCF80092B48A /* LaunchScreen.xib */; };
 		4A8A945B1B04DCF80092B48A /* TDC2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A945A1B04DCF80092B48A /* TDC2015Tests.swift */; };
+		4A8A946A1B04E1300092B48A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94691B04E1300092B48A /* Login.swift */; };
+		4A8A946B1B04E5310092B48A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A94691B04E1300092B48A /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		4A8A94541B04DCF80092B48A /* TDC2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDC2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A94591B04DCF80092B48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8A945A1B04DCF80092B48A /* TDC2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDC2015Tests.swift; sourceTree = "<group>"; };
+		4A8A94691B04E1300092B48A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = Model/Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,11 @@
 		4A8A94411B04DCF80092B48A /* TDC2015 */ = {
 			isa = PBXGroup;
 			children = (
+				4A8A94661B04DDF50092B48A /* Model */,
+				4A8A94651B04DDEF0092B48A /* View */,
+				4A8A94641B04DDD60092B48A /* Controller */,
 				4A8A94441B04DCF80092B48A /* AppDelegate.swift */,
-				4A8A94461B04DCF80092B48A /* ViewController.swift */,
-				4A8A94481B04DCF80092B48A /* Main.storyboard */,
 				4A8A944B1B04DCF80092B48A /* Images.xcassets */,
-				4A8A944D1B04DCF80092B48A /* LaunchScreen.xib */,
 				4A8A94421B04DCF80092B48A /* Supporting Files */,
 			);
 			path = TDC2015;
@@ -110,6 +113,31 @@
 				4A8A94591B04DCF80092B48A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A8A94641B04DDD60092B48A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A94461B04DCF80092B48A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A8A94651B04DDEF0092B48A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A944D1B04DCF80092B48A /* LaunchScreen.xib */,
+				4A8A94481B04DCF80092B48A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A8A94661B04DDF50092B48A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A94691B04E1300092B48A /* Login.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8A946A1B04E1300092B48A /* Login.swift in Sources */,
 				4A8A94471B04DCF80092B48A /* ViewController.swift in Sources */,
 				4A8A94451B04DCF80092B48A /* AppDelegate.swift in Sources */,
 			);
@@ -222,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8A945B1B04DCF80092B48A /* TDC2015Tests.swift in Sources */,
+				4A8A946B1B04E5310092B48A /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

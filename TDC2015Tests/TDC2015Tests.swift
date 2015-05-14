@@ -11,6 +11,8 @@ import XCTest
 
 class TDC2015Tests: XCTestCase {
     
+    let login = Login()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,16 +23,16 @@ class TDC2015Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testLoginSucceeded() {
+        
+        XCTAssertTrue(login.checkLogin("rodrigo", password: "123"), "Check login succeeded.")
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+    func testLoginFailed() {
+        
+        XCTAssertFalse(login.checkLogin("rodrigo", password: "136"), "Check login failed.")
+        
     }
     
 }

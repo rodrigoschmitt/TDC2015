@@ -10,6 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txtUsername: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    
+    @IBAction func loginButtonPressed(sender: AnyObject) {
+        
+        let login = Login()
+        
+        if (login.checkLogin(txtUsername.text, password: txtPassword.text)) {
+            self.showAlert("Login ok!")
+        }
+        else {
+            self.showAlert("Login fail!")
+        }
+        
+    }
+    
+    func showAlert (message: String) {
+        
+        let alertView = UIAlertView(title: "Alert", message: message, delegate: nil, cancelButtonTitle: "OK")
+        alertView.show()
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
