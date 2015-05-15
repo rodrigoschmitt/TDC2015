@@ -12,11 +12,7 @@ class Login: NSObject {
     
     func checkLogin (username: String, password: String) -> Bool {
         
-        if username == "rodrigo" && password == "123" {
-            return true
-        }
-        
-        return false
+        return username == "rodrigo" && password == "123"
         
     }
    
