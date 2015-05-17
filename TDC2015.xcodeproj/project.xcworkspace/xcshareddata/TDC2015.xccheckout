@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54ACB836-A45A-4C2C-916C-8A4C3555DF86</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TDC2015</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7981B8CE6294B29617B57D9537D9B7360F00D7B7</key>
+		<string>ssh://VMServerOSX.local/git/TDC2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TDC2015.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7981B8CE6294B29617B57D9537D9B7360F00D7B7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://VMServerOSX.local/git/TDC2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7981B8CE6294B29617B57D9537D9B7360F00D7B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7981B8CE6294B29617B57D9537D9B7360F00D7B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TDC2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>
